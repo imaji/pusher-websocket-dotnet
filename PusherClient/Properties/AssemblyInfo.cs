@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("PusherDotNetClient")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Pusher .NET Client library for interactinig with the Pusher Servers")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyCompany("Pusher")]
 [assembly: AssemblyProduct("PusherDotNetClient")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2012")]
+[assembly: AssemblyCopyright("Copyright © 2012-2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -34,3 +34,5 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("0.5.0")]
 [assembly: AssemblyInformationalVersion("0.5.0")]
+
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("PusherClient.Tests")]
